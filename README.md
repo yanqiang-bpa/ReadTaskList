@@ -1,18 +1,1 @@
 # ReadTaskList
-Read the content of users' task list and save information in Mongodb
-Steps:
-1. Install node.js, mongodb, then configure environment variable.
-2. Run mongodb on a command line using, currently there are no data in user collection：
-  > mongo
-  > use test
-  > db.user.find()
-3. Create a directory named MyDir(for example) and copy readExcelFromLocal.js and RNA+20150430+CG-1Ad WGS出库信息.xlsx to MyDir(IMPORTANT). You can find the Excel file in mail box, which was forwarded from Guti by Guti on May 8.
-4. Install dependency module from command line:
-  > cd MyDir
-  > npm install mongodb
-  > npm install node-xlsx
-  > node readExcelFromLocal
-5. Open the browser and visit localhost:8089, use “浏览" to select the fixed-format excel file and save it.
-6. Check the data just saved in mongodb
-  > db.user.find()
-7. Done.

@@ -5,7 +5,7 @@ Steps:
   > mongo
   > use test
   > db.user.find()
-3. Create a directory named MyDir(for example) and copy readExcelFromLocal.js and RNA+20150430+CG-1Ad WGS出库信息.xlsx to MyDir(IMPORTANT). You can find the Excel file in mail box, which was forwarded from Guti by Guti on May 8.
+3. Create a directory named MyDir(for example) and copy readExcelFromLocal.js and RNA+20150430+CG-1Ad WGS出库信息.xlsx to MyDir(IMPORTANT). You can find the Excel file in mail box, which was forwarded by Guti from Li Manping on May 8.
 4. Install dependency module from command line:
   > cd MyDir
   > npm install mongodb
